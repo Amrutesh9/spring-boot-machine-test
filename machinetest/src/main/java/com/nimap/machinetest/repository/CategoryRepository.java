@@ -6,6 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
-    // JpaRepository provides basic CRUD operations
-    // Add custom queries here if needed
 }
